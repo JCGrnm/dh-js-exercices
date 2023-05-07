@@ -18,4 +18,4 @@ function printName(helloName) {
   }
   return inner();
 }
-setTimeout(printName, 2000); */
+setTimeout(printName, 1000); */
