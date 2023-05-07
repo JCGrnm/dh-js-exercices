@@ -1,5 +1,5 @@
 function nicknameMap(persons) {
-  return persons.map((person) => person.name + "-" + person.age); //similar to exercise array 1
+  return persons.map((person) => person.name + "-" + person.age);
 }
 
 const persons = [
