@@ -1,9 +1,21 @@
-function printName(helloName) {
+// CORRECTED VERSION AFTER TUTOR FEEDBACK
+function printName() {
   var helloName = "Hello John";
   function inner() {
     return helloName;
   }
-  return inner();
+  return inner;
 }
 
-console.log(printName());
+console.log(printName()());
+
+// WRONG VERSION TO BE CORRECTED
+//function printName(helloName) {
+//   var helloName = "Hello John";
+//   function inner() {
+//     return helloName;
+//   }
+//   return inner();
+// }
+
+// console.log(printName());
