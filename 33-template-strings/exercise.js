@@ -8,5 +8,5 @@ class Person {
 const developer = new Person("Mario", "Rossi");
 //provided by assignment: console.log(developer.firstName + " " + developer.lastName);
 
-// solution - refactor template liberals:
+// solution - refactor template literals:
 console.log(`${developer.firstName} ${developer.lastName}`);
