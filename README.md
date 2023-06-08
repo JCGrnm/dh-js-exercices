@@ -1,4 +1,5 @@
-# dh-js-exercises
+# Dom Tree - Exercise 2
 
-✎ Weeks 05-10: Toolchain 1 + JavaScript Advanced Concepts<br>
-✎ Exercises: 1-47
+Get the value of the `form-input` text input field and print it in the console.
+
+Use the `class` as selector.

@@ -1,0 +1,37 @@
+<html>
+  <body>
+    <div id="container">
+      <form>
+        <div>
+          <label>First Name:</label>
+          <input type="text" class="form-input" id="firstName" value="Mario" />
+        </div>
+        <div>
+          <label>Last Name:</label>
+          <input type="text" class="form-input" id="lastName" value="Rossi" />
+        </div>
+        <div>
+          <label>Age:</label>
+          <input type="number" class="form-input" id="age" value="25" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script>
+  //pattern dalle onetomany adattato
+  const input = () =>
+    console.log(
+      [...document.querySelectorAll('.form-input[type="text"]')] //con spread operator convertiamo nodelist in array
+        .map(({ value }) => value) //map + destructuring
+        .join(", ") //concatena i valori con separatore virgola
+    );
+
+  // input();
+
+  //con forEach, più usato nei video della piattaforma
+  // document.querySelectorAll(`.form-input[type="text"]`).forEach((input) => {
+  //   console.log(input.value);
+  // });
+</script>
